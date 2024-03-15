@@ -22,6 +22,7 @@ There two components to the considered system:
 The method explores the capabilities of existing off-the-shelf inpainting models, in this case, StableDiffusion 1.5 and ControlNet conditioning.
 ![diffusion-edgeguided-infer](https://github.com/mikonvergence/inpainting-multispectral-satellite-with-text/assets/13435425/61ed57a0-f9fb-4555-ade5-ba546e0a33ef)
 
+> Based on the [ControlNetInpaint](https://github.com/mikonvergence/ControlNetInpaint) [![GitHub Repo stars](https://img.shields.io/github/stars/mikonvergence/ControlNetInpaint)](https://github.com/mikonvergence/ControlNetInpaint) repository. Check it out for other types of conditioned inpainting!
 
 ### Channel-wise Inpainting
 The output of an existing model can be used to propagate the inpainting information across channels. Here, Deep Image Prior is used to do this in an internal learning regime (no pre-training necessary).
