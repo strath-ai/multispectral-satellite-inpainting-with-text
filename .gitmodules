@@ -1,0 +1,3 @@
+[submodule "src/ControlNetInpaint"]
+	path = src/ControlNetInpaint
+	url = https://github.com/mikonvergence/ControlNetInpaint.git
